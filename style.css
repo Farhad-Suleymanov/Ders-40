@@ -1,0 +1,43 @@
+#s1{
+    position: relative;
+    top: 15vh;
+}
+#s1 div{
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+#s2{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+    top: 90vh;
+}
+button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition-duration: .2s;
+    background-color: white;
+}
+#previous,#next{
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+}
+button:hover{
+    color: white !important;
+    background-color: rgb(42, 42, 240) !important;
+}
+img{
+    width: 520px;
+    height: 420px;
+    object-fit: cover;
+}
+p{
+    font-size: 22px;
+}
